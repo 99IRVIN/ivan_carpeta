@@ -1,0 +1,6 @@
+3 normas para escribir nombres de variables archivos y carpetas
+1. caso Snake case el nombre tiene que ir separado por sub guiones 
+nombre_de_alumno
+2. caso Camell case la primera letra de la segunda palabra con mayuscula 
+nombreDelAlumno
+caso pascal 

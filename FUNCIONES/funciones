@@ -1,0 +1,20 @@
+## funciones
+## 2 tipos de funciones
+## funciones propias de python
+print(##parametros) ##sirve para demostrar mensajes o resultados
+int() ## esta funcion sirve para convertir string en entero
+input() ## esta funcion sirve para pdedir datos al usuario
+## todo lo que se ingrese en input sera toamdo como texto
+## funciones creadas
+## creando la funcion hola
+def ##desarrollo de funcion
+def saludo():
+ return "hola"
+## uso de funcion
+print(saludo())
+
+def suma(a,b):
+ resultado=a+b
+ return resultado
+ ##uso de funcion
+ print(suma(4,6))
