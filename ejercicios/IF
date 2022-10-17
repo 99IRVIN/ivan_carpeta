@@ -1,0 +1,6 @@
+##pedir una edad si es mayor o menor de edad
+edad=int(input('ingrese tu edad: '))
+if edad>18:
+    print('mayor de edad')
+else:
+    print('no es mayor de edad')
