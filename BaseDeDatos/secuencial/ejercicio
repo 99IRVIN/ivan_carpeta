@@ -1,0 +1,5 @@
+##pedir tu nombre y mostrar tu nombre con un saludo
+nombre=input('ingrese su nombre')
+##de phyton que nos permite capturar un dato ingresado o pedir
+##un dato quen ingrese por consola
+print('bienvenida hermosa ', nombre)

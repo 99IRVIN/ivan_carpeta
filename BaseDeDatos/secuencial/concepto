@@ -1,0 +1,6 @@
+##estructura secuencial significa que se ejecutaran linea por linea
+datoA=10
+datoB=20
+suma=datoA+datoB
+print('SUMA')
+
