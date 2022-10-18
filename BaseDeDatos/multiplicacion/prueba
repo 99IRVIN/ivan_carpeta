@@ -1,0 +1,22 @@
+##factor = 5 #factor deseado, en este caso, haremos la tabla del 5
+##desde = 1 #límite inferior (incluido)
+##hasta = 15 #límite superior (incluido también)
+##for f in range(desde, hasta + 1):
+##	print(f'{factor} x {f} =  {factor * f}')
+eval=True
+while eval==True:
+    numero=int(input('ingrese el numero de la tabla que desee: '))
+    if numero==0:
+        print('error saliendo del programa: ')
+        break
+    else:
+        for numeros in range(1,13):
+            print(numeros,'*',numero,'=',numeros*numero)
+
+
+# if numero!=0:
+#     for numeros in range(1,11)
+#         print(numeros,'*',numero,'='numeros*numero)
+# else:
+#     print('salio de accion: ')
+#     break

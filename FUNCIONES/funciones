@@ -3,8 +3,8 @@
 ## funciones propias de python
 print(##parametros) ##sirve para demostrar mensajes o resultados
 int() ## esta funcion sirve para convertir string en entero
-input() ## esta funcion sirve para pdedir datos al usuario
-## todo lo que se ingrese en input sera toamdo como texto
+input() ## esta funcion sirve para pedir datos al usuario
+## todo lo que se ingrese en input sera tomado como texto
 ## funciones creadas
 ## creando la funcion hola
 def ##desarrollo de funcion

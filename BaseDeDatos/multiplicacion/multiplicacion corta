@@ -1,0 +1,3 @@
+numero=int(input('ingrese el numero que desea multiplicar: '))
+for numeros in range(1,11):
+    print(numeros, '*',numero, '=', numeros*numero )

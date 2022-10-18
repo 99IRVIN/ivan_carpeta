@@ -1,0 +1,12 @@
+##ingrese las 4 notas y mostar el promedio de las cuatro notas
+nota1=int(input('ingrese su primera nota: '))
+nota2=int(input('ingrese su segunda nota: '))
+nota3=int(input('ingrese su tercera nota: '))
+nota4=int(input('ingrese su cuarta nota: '))
+promedio=nota1+nota2+nota3+nota4
+final=promedio/4
+print('tu promedio es: ', final)
+if final>13:
+    print('estas aprobado')
+else:
+    print('estas desaprobado')

@@ -1,0 +1,13 @@
+password='7073505233'
+condicion=True
+intento=1
+while condicion==True:
+    print('este es tu',intento,'intentos')
+    newpassword=input('ingresa el passwor correcto: ')
+    if newpassword==password:
+        print('bienvenido al sistema ilustre joven')
+        condicion=False
+    else:
+        print('eres un gil')
+        intento+=1
+
