@@ -1,20 +1,34 @@
-## funciones
-## 2 tipos de funciones
-## funciones propias de python
-print(##parametros) ##sirve para demostrar mensajes o resultados
-int() ## esta funcion sirve para convertir string en entero
-input() ## esta funcion sirve para pedir datos al usuario
-## todo lo que se ingrese en input sera tomado como texto
-## funciones creadas
-## creando la funcion hola
-def ##desarrollo de funcion
-def saludo():
- return "hola"
-## uso de funcion
-print(saludo())
+# ## funciones
+# ## 2 tipos de funciones
+# ## funciones propias de python
+# print(##parametros) ##sirve para demostrar mensajes o resultados
+# int() ## esta funcion sirve para convertir string en entero
+# input() ## esta funcion sirve para pedir datos al usuario
+# ## todo lo que se ingrese en input sera tomado como texto
+# ## funciones creadas
+# ## creando la funcion hola
+# def ##desarrollo de funcion
+# def saludo():
+#  return "hola"
+# ## uso de funcion
+# print(saludo())
 
-def suma(a,b):
- resultado=a+b
- return resultado
- ##uso de funcion
- print(suma(4,6))
+# def suma(a,b):
+#  resultado=a+b
+#  return resultado
+#  ##uso de funcion
+#  print(suma(4,6))
+
+numero='10' ##'10'
+int(numero)##10
+## int es el nombre de la fubncion
+## () y dentro de las parentesis van los parametros
+sentence=input('ingrese los datos: ')
+def countsvocals(texto):
+    vocales=['a','e','i','o','u']
+    contadorvocales=0
+    for letras in texto:
+        if letras in vocales:
+            contadorvocales+=1
+    return contadorvocales
+print('la cantidad de vocales es: ', countsvocals(sentence))
