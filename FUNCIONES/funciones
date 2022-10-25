@@ -19,16 +19,36 @@
 #  ##uso de funcion
 #  print(suma(4,6))
 
-numero='10' ##'10'
-int(numero)##10
-## int es el nombre de la fubncion
-## () y dentro de las parentesis van los parametros
-sentence=input('ingrese los datos: ')
-def countsvocals(texto):
-    vocales=['a','e','i','o','u']
-    contadorvocales=0
-    for letras in texto:
-        if letras in vocales:
-            contadorvocales+=1
-    return contadorvocales
-print('la cantidad de vocales es: ', countsvocals(sentence))
+# numero='10' ##'10'
+# int(numero)##10
+# ## int es el nombre de la fubncion
+# ## () y dentro de las parentesis van los parametros
+# sentence=input('ingrese los datos: ')
+# def countsvocals(texto):
+#     vocales=['a','e','i','o','u']
+#     contadorvocales=0
+#     for letras in texto:
+#         if letras in vocales:
+#             contadorvocales+=1
+#     return contadorvocales
+# print('la cantidad de vocales es: ', countsvocals(sentence))
+
+# sentence=input('enter sentence: ')
+# vocales=['a','e','i','o','u']
+# contador=0
+# for word in sentence:
+#     if word in vocales:
+#         contador+=1
+#     print('count vocal in sentes is: ', contador)
+
+
+sentence=input('enter sentence: ')
+vocales=['a','e','i','o','u']
+def countvocal(sentence,vocales):
+    contador=0
+    for word in sentence:
+        if word in vocales:
+            contador+=1
+    return contador
+
+print(countvocal(sentence,vocales))

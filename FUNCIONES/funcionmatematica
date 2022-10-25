@@ -1,0 +1,18 @@
+## crear una funcion de operaciones matematicas
+## parametros
+## operacionmatematica(numerouno,numerodos,operacion)
+## operacionmatematica(4,5,'suma')
+## por consola la suma de 4+5
+## si es distinto a suma, resta, multiplicacion o division, debera moestrarme error
+
+
+def mensaje(nombre,apellido,accion):
+    if accion == 'saludo':
+        mensaje='hola' , nombre, apellido, 'como estas'
+    elif accion=='despedida':
+        mensaje='adios ', nombre, apellido
+    return mensaje
+
+# print(mensaje('ivan', 'Apaico', 'saludo')
+respuesta=mensaje('jose','albarez','despedida')
+print(respuesta)
