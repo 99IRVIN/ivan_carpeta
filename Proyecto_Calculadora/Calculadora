@@ -1,0 +1,25 @@
+#Menu de opciones
+#1.	Sumar
+#2.	Restar
+#3.	Multiplicar
+#4.	Dividir
+#5.	Salir
+#Digite el numero de la opción (1-5):
+#Digite el primer número:
+#Digite el segundo número:
+
+OperacionUsuario=input('ingrese la operacion: ')
+num1=input('ingrese numero: ')
+num2=input('ingrese numero: ')
+def OperacionMatematica(num1, num2, Operacion):
+    if Operacion == '+':
+        resultado= num1+num2
+    elif Operacion == '-':
+        resultado= num1-num2
+    elif Operacion == '*':
+        resultado= num1*num2
+    elif Operacion == '/':
+        resultado= num1/num2
+    elif Operacion == 'salir':
+        print('Salio de Operacion')
+print('el resultado es: ',  )
