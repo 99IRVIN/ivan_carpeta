@@ -2,32 +2,32 @@
 +
 ## Busca la diferencia entre dos números o indica el valor negativo de un número.
 
-[Precio]-[Descuento]
+##[Precio]-[Descuento]
 
-*
+## *
 
-Multiplica dos números.
+## Multiplica dos números.
 
-[Cantidad]*[Precio]
+## [Cantidad]*[Precio]
 
-/
+## /
 
-Divide el primer número entre el segundo.
+## Divide el primer número entre el segundo.
 
-[Total]/[RecuentoDeElementos]
+##[Total]/[RecuentoDeElementos]
 
-\
+##\
 
-Redondea ambos números a enteros, divide el primer número entre el segundo y, después, trunca el resultado a un entero.
+##Redondea ambos números a enteros, divide el primer número entre el segundo y, después, trunca el resultado a un entero.
 
-[Registradas]\[Salas]
+##[Registradas]\[Salas]
 
-Resto
+##Resto
 
-Divide el primer número entre el segundo y después devuelve únicamente el resto.
+##Divide el primer número entre el segundo y después devuelve únicamente el resto.
 
-[Registradas] Resto [Salas]
+##[Registradas] Resto [Salas]
 
-^
+## ^
 
-Eleva un número a la potencia de un exponente.
+##Eleva un número a la potencia de un exponente.
